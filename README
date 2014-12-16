@@ -1,0 +1,12 @@
+USES: Python 2.7
+
+TO RUN: python main.py
+
+Enter file name when prompted
+
+Will build shortest path using an algorithm similar to DFS
+
+Alternatively, you could uncomment line 17 in main.py and comment
+18 and 19 and it will find the shortest path using BFS. (I realize
+that the robot jumps around, so it can't be used for this project,
+but I didn't want to delete it.)
