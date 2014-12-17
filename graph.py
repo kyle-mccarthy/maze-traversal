@@ -7,7 +7,6 @@ class Graph:
         self.start = None
         self.end = None
         self.shortest_path = list()
-        self.successors = [Vertex]
 
     ## Read the matrix into a graph and store the available moves as vertices
     def read_matrix_to_graph(self, file_matrix):
